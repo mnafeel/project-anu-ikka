@@ -2401,7 +2401,7 @@ body {
         transition: 0.6s;
         opacity: 1; }
 
-/*.home-ov-img {
+.home-ov-img {
   background-image: url(../images/header-bg-2.png);
   background-size: cover;
   background-size: cover;

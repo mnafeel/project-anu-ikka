@@ -2223,7 +2223,7 @@ body {
     position: relative;
     width: 100%;
     display: block; }
-  .mh-project-gallery .grid-item figure figcaption {
+  /*.mh-project-gallery .grid-item figure figcaption {
     position: absolute;
     padding: 15px;
     height: 100%;
@@ -2259,7 +2259,7 @@ body {
       -moz-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(0.95);
       -webkit-transform: translateX(0) translateY(0) translateZ(0) rotate(0deg) scale(0.95);
       z-index: -1;
-      opacity: 0; }
+      opacity: 0; }*/
     .mh-project-gallery .grid-item figure figcaption .fa {
       margin: 0;
       padding: 0;
@@ -2447,7 +2447,7 @@ body {
       font-weight: 600;
       margin-top: 10px; }
 
-/*.mh-single-project-slide .owl-controls .owl-nav {
+.mh-single-project-slide .owl-controls .owl-nav {
   display: none !important; }
 .mh-single-project-slide .owl-controls .owl-dots {
   padding-left: 15px;

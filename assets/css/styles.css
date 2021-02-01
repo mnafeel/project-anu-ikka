@@ -266,8 +266,8 @@ a {
   padding: 20px 0; }
   
   section {
-    //padding: 60px 0;
-    //padding-bottom: 30px;
+    padding: 60px 0;
+    padding-bottom: 30px;
 }
 
 /**
@@ -1769,7 +1769,7 @@ body {
     Mobile Nav
 ==============
 */
-.old {
+.old{
   /*==============
             Overlay            
   ================== */
@@ -2447,7 +2447,7 @@ body {
       font-weight: 600;
       margin-top: 10px; }
 
-.mh-single-project-slide .owl-controls .owl-nav {
+/*.mh-single-project-slide .owl-controls .owl-nav {
   display: none !important; }
 .mh-single-project-slide .owl-controls .owl-dots {
   padding-left: 15px;

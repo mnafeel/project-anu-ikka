@@ -2222,10 +2222,10 @@ body {
  .mh-project-gallery .grid-item figure img {
    position: relative;
     width: 100%;
-    display: block; }
+    display: block;}
   .mh-project-gallery .grid-item figure figcaption {
-   /* position: absolute;
-    padding: 15px;*/
+   position: absolute;
+    padding: 15px;
     height: 100%;
     width: 100%;
    top: auto;

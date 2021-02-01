@@ -2200,7 +2200,7 @@ body {
 ===================
 */
 .grid-item {
-  margin-bottom: 20px; }
+ margin-bottom: 20px; }
 
 .portfolio-nav {
   text-align: center;
@@ -2216,11 +2216,11 @@ body {
       border-bottom: 2px solid #0bceaf; }
 
 .mh-project-gallery .grid-item figure {
-  position: relative;
-  overflow: hidden;
+ position: relative;
+ overflow: hidden;
   border-radius: 10px; }
  .mh-project-gallery .grid-item figure img {
-    position: relative;
+   /* position: relative;*/
     width: 100%;
     display: block; }
   .mh-project-gallery .grid-item figure figcaption {
@@ -2228,7 +2228,7 @@ body {
     padding: 15px;
     height: 100%;
     width: 100%;
-   /* top: auto;*/
+   top: auto;
     left: 0;
     color: #fff;
     bottom: 0;

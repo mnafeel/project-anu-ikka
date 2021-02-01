@@ -1335,7 +1335,7 @@ body {
       Portfolio
     ==============
 */
-/*.portfolio-nav {
+.portfolio-nav {
   margin: 0 auto;
   margin-bottom: 40px; }
   .portfolio-nav ul {
@@ -2219,7 +2219,7 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 10px; }
-  .mh-project-gallery .grid-item figure img {
+ .mh-project-gallery .grid-item figure img {
     position: relative;
     width: 100%;
     display: block; }
@@ -2228,7 +2228,7 @@ body {
     padding: 15px;
     height: 100%;
     width: 100%;
-    top: auto;
+   /* top: auto;*/
     left: 0;
     color: #fff;
     bottom: 0;

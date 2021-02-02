@@ -49,6 +49,9 @@
         <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">
         <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
         <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
+
+      
+
        
     </head>
     <body class="dark-vertion black-bg" >
@@ -1051,10 +1054,10 @@
                             <form id="contactForm" class="single-form quate-form wow fadeInUp" data-toggle="validator">
                                 <div id="msgSubmit" class="h3 text-center hidden"></div>
                                 <div class="row">
-                                    <div class="col-md-6 col-sm-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <input name="name" class="contact-name form-control" id="name" type="text" placeholder="First Name" required>
                                     </div>
-                                    <div class="col-md-6 col-sm-12">
+                                    <div class="col-md-12 col-sm-12">
                                         <input name="name" class="contact-email form-control" id="L_name" type="text" placeholder="Last Name" required>
                                     </div>
                                     <div class="col-sm-12 ">
@@ -1067,23 +1070,148 @@
                                  <div class="btn-form col-sm-12">
                                         <button type="submit" class="btn btn-fill btn-block" id="form-submit">Send Message</button>
                                     </div>
+                                    
                                 </div>
+                                
                             </form>
+                          
                         </div>
-                    
-                     
-                      <div class="col-sm-12 col-md-4  wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <div class="mh-map">
-                                <div id="mh-map" class="shadow-1">
-                                        <div class="contact-left">
-                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.4485845104!2d76.16084852134293!3d9.98268091180255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1611790108276!5m2!1sen!2sin" width="300 " height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <div class="col-md-6">
+                            <div class="welcome contact" id="contact">
+                                <div class="container">
+                                  
+                                    <div class="contact-row">
+                                        <div class="col-md-6 col-sm-12  contact-end" style="max-width: 500%; width: 100%; margin-top: 2rem; ">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.4485845104!2d76.16084852134293!3d9.98268091180255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1611790108276!5m2!1sen!2sin" width="0" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                         </div>
-                            
+                                       
+                                        <div class="clearfix"></div>
+                                   
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+
+                       
+                    
+                   <!---- <div class="container">
+                   <div class="col-sm-12 col-md-4  wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <div class="map-l">
+                                <div id="map-l" class="fig-caption">
+                                        <div class="col-sm-12 contact-left">
+                                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251482.4485845104!2d76.16084852134293!3d9.98268091180255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1611790108276!5m2!1sen!2sin" width="550 " height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                        </div>
+                                     
                                     </div>
                                 </div>
+                            </div>
+                        </div>-->
+                        <style>
+                            
+.contact-end iframe {
+    width: 100%;
+    min-height: 29.5em;
+    border: none;
+   
+}
+.contact-form h5 {
+    font-size: 2em;
+    color: #333;
+}
+.address-left {
+    float: left;
+    width: 41%;
+	position: relative;
+}
+.address-right {
+    float: right;
+    width: 46%;
+}
+.contact p {
+    color: #fff;
+    font-weight: 300;
+}
+.contact p a {
+    color: #fff;
+}
+.contact p a:hover{
+    color: #F7E612;
+}
+.address-left:after {
+    content: '';
+    width: 1px;
+    height: 100%;
+    background: #ccc;
+    position: absolute;
+    top: 0;
+    right: -17px;
+}
+.contact-form input[type="text"] {
+    width: 48%;
+    color: #fff;
+    background: none;
+    outline: none;
+    font-size: 1em;
+    padding: .8em 1em;
+    border: 1px solid #8C8C8C;
+    -webkit-appearance: none;
+    display: inline-block;
+}
+.contact-form input[type="text"].email {
+    margin: 3em 0 1em 0.5em;
+}
+.contact-form input[type="text"].phone {
+    width: 100%;
+    margin-bottom: 1em;
+}
+.contact-form textarea {
+    width: 100%;
+    background: none;
+    color: #fff;
+    font-size: 1em;
+    outline: none;
+    padding: .8em 1em;
+    border: 1px solid #8C8C8C;
+    min-height: 10em;
+    -webkit-appearance: none;
+}
+.contact-form input[type="submit"] {
+    outline: none;
+    color: #fff;
+    padding: 0.6em 1em;
+    font-size: 1.1em;
+    margin: 1em 0 0 0;
+    -webkit-appearance: none;
+  /*  background: #008B8B;*/
+    border: 2px solid #008B8B;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    width: 100%;
+}
+.contact-form input[type="submit"]:hover {
+    background: none;
+    color: #008B8B;
+}
+::-webkit-input-placeholder {
+	color:#fff !important;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color:#fff !important; 
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color:#fff !important;
+}
+
+:-ms-input-placeholder {  
+	color:#fff !important;
+}
+                        </style>
                         
-                        </div>
-                    
+                        
 
 	
                     
@@ -1143,8 +1271,11 @@
     <!-- isotope js-->
     <script src="assets/plugins/js/isotope.pkgd.js"></script>
     <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+   
+        
     <!-- Map api -->
-   <!-- <script src="https://goo.gl/maps/WvvYexaYM38D2qPJ9"></script>-->
+   
+    <!--<script src="https://www.google.co.in/maps/@10.006085,76.282667,15z?hl=en-GB&authuser=0"></script>-->
    
     <!-- Custom Scripts-->
     <script src="assets/js/map-init.js"></script>
@@ -1242,6 +1373,7 @@
 			<p style="text-align: center;">© 2020 My Resume. All rights reserved | Design by <a href="http://mnafeel.com">Nafeel</a></p></a>	
 		</div>
     </div>
+    
    
   
    
